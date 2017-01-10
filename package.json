@@ -1,0 +1,33 @@
+{
+  "name": "cubx3D",
+  "version": "0.0.1",
+  "description": "cubx3D (Campus of University of Bordeaux in 3D) is a WebGL application",
+  "main": "cubx3D.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazybiocomputing/cubx3D.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "university bordeaux",
+    "webgl"
+  ],
+  "author": "Jean-Christophe Taveau",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/crazybiocomputing/cubx3D/issues"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "jsdoc": "~3.4.3",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-uglify": "~2.0.0"
+  }
+}
