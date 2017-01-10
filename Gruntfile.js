@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                     dest: 'javascripts/<%= pkg.name %>.js'
                 },
                 dist: {
-                    src: ['src/**/README.md'],
+                    src: ['README.md', 'src/**/README.md'],
                     dest: 'doc/README.md'
                 }
             },
